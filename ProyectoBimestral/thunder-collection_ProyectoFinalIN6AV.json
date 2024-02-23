@@ -1,0 +1,173 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoFinalIN6AV",
+    "dateExported": "2024-02-23T18:55:00.532Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "f44511b4-b2c2-4142-a4d0-02b766286b1e",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-23T18:46:17.230Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2b9da578-12be-4d13-a970-aa17ba01eb78",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-23T18:46:29.381Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "383cad22-fd92-4a22-957a-f8f300283588",
+            "colId": "c652650c-983b-4499-8049-54e268455d7b",
+            "containerId": "f44511b4-b2c2-4142-a4d0-02b766286b1e",
+            "name": "register",
+            "url": "localhost:3200/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T18:46:43.350Z",
+            "modified": "2024-02-23T18:49:46.963Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Villa Nueva"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "727ffa29-a882-4cf5-bfae-a21fad96c2eb",
+            "colId": "c652650c-983b-4499-8049-54e268455d7b",
+            "containerId": "f44511b4-b2c2-4142-a4d0-02b766286b1e",
+            "name": "update",
+            "url": "localhost:3200/update/65d8e8cab894a4f2507c7ec0",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-02-23T18:51:18.057Z",
+            "modified": "2024-02-23T18:52:33.913Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4ZThjYWI4OTRhNGYyNTA3YzdlYzAiLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA4NzE0MzM1LCJleHAiOjE3MDg3MjUxMzV9.aSxBOzxbYI5EwHKna4SmljKcxXElf0KT0FMZAJzXdOk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac-2022051"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Villa Nueva"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d335b585-2f6b-4af2-b53c-bc07c6c7d90c",
+            "colId": "c652650c-983b-4499-8049-54e268455d7b",
+            "containerId": "f44511b4-b2c2-4142-a4d0-02b766286b1e",
+            "name": "login",
+            "url": "localhost:3200/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-23T18:47:37.423Z",
+            "modified": "2024-02-23T18:50:08.610Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "abachac"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "907ff7f2-5c92-4512-8962-654fcbb99eef",
+            "colId": "c652650c-983b-4499-8049-54e268455d7b",
+            "containerId": "f44511b4-b2c2-4142-a4d0-02b766286b1e",
+            "name": "delete",
+            "url": "localhost:3200/delete/65d8e8cab894a4f2507c7ec0",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T18:52:48.053Z",
+            "modified": "2024-02-23T18:53:35.008Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4ZThjYWI4OTRhNGYyNTA3YzdlYzAiLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA4NzE0MzM1LCJleHAiOjE3MDg3MjUxMzV9.aSxBOzxbYI5EwHKna4SmljKcxXElf0KT0FMZAJzXdOk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
